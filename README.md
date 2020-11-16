@@ -1,8 +1,8 @@
 # LSTM-HC-RT
-# The files for the paper about "How does end to end learning for the prediction of reaction time Help to understand the healthy brain?"
+## The files for the study on How does end to end learning for the prediction of reaction time Help to understand the healthy brain?
 1) Build filtered data using MainScript.m which can be found here: https://drive.google.com/drive/folders/1l_w32Trp7dX1NFbrZf-qRCaU6nQNatxL. It will need the data found here: https://drive.google.com/drive/folders/1IOLGO1HVodH91q_kss8i5vNQiao_Z_iK
 This makes DatahcAlireza.mat which is used by the rest of the codes.
-2) Build the models by running codes below. You would need MyUtils.py 
+2) Build the LSTM models (on full frequency range and sub-bands) by running codes below. You would need MyUtils.py 
 1-Subbands_AllSubjects.py
 2-MoreTests_AllSubjects.py
 2-MoreTests_AllSubjects_TbyT.py
